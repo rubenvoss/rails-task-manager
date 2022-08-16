@@ -9,7 +9,7 @@ class TasksController < ApplicationController
     redirect_to task_path(task)
   end
 
-  def all
+  def index
     @tasks = Task.all
     # raise
   end
